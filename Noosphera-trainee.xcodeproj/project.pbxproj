@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD4B298E205BBA3B00E159AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4B298D205BBA3B00E159AF /* AppDelegate.swift */; };
+		DD4B2990205BBA3B00E159AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4B298F205BBA3B00E159AF /* ViewController.swift */; };
+		DD4B2993205BBA3B00E159AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4B2991205BBA3B00E159AF /* Main.storyboard */; };
+		DD4B2996205BBA3B00E159AF /* Noosphera_trainee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD4B2994205BBA3B00E159AF /* Noosphera_trainee.xcdatamodeld */; };
+		DD4B2998205BBA3B00E159AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD4B2997205BBA3B00E159AF /* Assets.xcassets */; };
+		DD4B299B205BBA3B00E159AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4B2999205BBA3B00E159AF /* LaunchScreen.storyboard */; };
+		DD4B29A6205BBA3B00E159AF /* Noosphera_traineeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4B29A5205BBA3B00E159AF /* Noosphera_traineeTests.swift */; };
+		DD4B29B1205BBA3B00E159AF /* Noosphera_traineeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4B29B0205BBA3B00E159AF /* Noosphera_traineeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD4B29A2205BBA3B00E159AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD4B2982205BBA3B00E159AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD4B2989205BBA3B00E159AF;
+			remoteInfo = "Noosphera-trainee";
+		};
+		DD4B29AD205BBA3B00E159AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD4B2982205BBA3B00E159AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD4B2989205BBA3B00E159AF;
+			remoteInfo = "Noosphera-trainee";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD4B298A205BBA3B00E159AF /* Noosphera-trainee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Noosphera-trainee.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4B298D205BBA3B00E159AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD4B298F205BBA3B00E159AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD4B2992205BBA3B00E159AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD4B2995205BBA3B00E159AF /* Noosphera_trainee.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Noosphera_trainee.xcdatamodel; sourceTree = "<group>"; };
+		DD4B2997205BBA3B00E159AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD4B299A205BBA3B00E159AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD4B299C205BBA3B00E159AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD4B29A1205BBA3B00E159AF /* Noosphera-traineeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Noosphera-traineeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4B29A5205BBA3B00E159AF /* Noosphera_traineeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Noosphera_traineeTests.swift; sourceTree = "<group>"; };
+		DD4B29A7205BBA3B00E159AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD4B29AC205BBA3B00E159AF /* Noosphera-traineeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Noosphera-traineeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4B29B0205BBA3B00E159AF /* Noosphera_traineeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Noosphera_traineeUITests.swift; sourceTree = "<group>"; };
+		DD4B29B2205BBA3B00E159AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD4B2987205BBA3B00E159AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4B299E205BBA3B00E159AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4B29A9205BBA3B00E159AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD4B2981205BBA3B00E159AF = {
+			isa = PBXGroup;
+			children = (
+				DD4B298C205BBA3B00E159AF /* Noosphera-trainee */,
+				DD4B29A4205BBA3B00E159AF /* Noosphera-traineeTests */,
+				DD4B29AF205BBA3B00E159AF /* Noosphera-traineeUITests */,
+				DD4B298B205BBA3B00E159AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD4B298B205BBA3B00E159AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD4B298A205BBA3B00E159AF /* Noosphera-trainee.app */,
+				DD4B29A1205BBA3B00E159AF /* Noosphera-traineeTests.xctest */,
+				DD4B29AC205BBA3B00E159AF /* Noosphera-traineeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD4B298C205BBA3B00E159AF /* Noosphera-trainee */ = {
+			isa = PBXGroup;
+			children = (
+				DD4B298D205BBA3B00E159AF /* AppDelegate.swift */,
+				DD4B298F205BBA3B00E159AF /* ViewController.swift */,
+				DD4B2991205BBA3B00E159AF /* Main.storyboard */,
+				DD4B2997205BBA3B00E159AF /* Assets.xcassets */,
+				DD4B2999205BBA3B00E159AF /* LaunchScreen.storyboard */,
+				DD4B299C205BBA3B00E159AF /* Info.plist */,
+				DD4B2994205BBA3B00E159AF /* Noosphera_trainee.xcdatamodeld */,
+			);
+			path = "Noosphera-trainee";
+			sourceTree = "<group>";
+		};
+		DD4B29A4205BBA3B00E159AF /* Noosphera-traineeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD4B29A5205BBA3B00E159AF /* Noosphera_traineeTests.swift */,
+				DD4B29A7205BBA3B00E159AF /* Info.plist */,
+			);
+			path = "Noosphera-traineeTests";
+			sourceTree = "<group>";
+		};
+		DD4B29AF205BBA3B00E159AF /* Noosphera-traineeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD4B29B0205BBA3B00E159AF /* Noosphera_traineeUITests.swift */,
+				DD4B29B2205BBA3B00E159AF /* Info.plist */,
+			);
+			path = "Noosphera-traineeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD4B2989205BBA3B00E159AF /* Noosphera-trainee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD4B29B5205BBA3B00E159AF /* Build configuration list for PBXNativeTarget "Noosphera-trainee" */;
+			buildPhases = (
+				DD4B2986205BBA3B00E159AF /* Sources */,
+				DD4B2987205BBA3B00E159AF /* Frameworks */,
+				DD4B2988205BBA3B00E159AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Noosphera-trainee";
+			productName = "Noosphera-trainee";
+			productReference = DD4B298A205BBA3B00E159AF /* Noosphera-trainee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD4B29A0205BBA3B00E159AF /* Noosphera-traineeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD4B29B8205BBA3B00E159AF /* Build configuration list for PBXNativeTarget "Noosphera-traineeTests" */;
+			buildPhases = (
+				DD4B299D205BBA3B00E159AF /* Sources */,
+				DD4B299E205BBA3B00E159AF /* Frameworks */,
+				DD4B299F205BBA3B00E159AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD4B29A3205BBA3B00E159AF /* PBXTargetDependency */,
+			);
+			name = "Noosphera-traineeTests";
+			productName = "Noosphera-traineeTests";
+			productReference = DD4B29A1205BBA3B00E159AF /* Noosphera-traineeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD4B29AB205BBA3B00E159AF /* Noosphera-traineeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD4B29BB205BBA3B00E159AF /* Build configuration list for PBXNativeTarget "Noosphera-traineeUITests" */;
+			buildPhases = (
+				DD4B29A8205BBA3B00E159AF /* Sources */,
+				DD4B29A9205BBA3B00E159AF /* Frameworks */,
+				DD4B29AA205BBA3B00E159AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD4B29AE205BBA3B00E159AF /* PBXTargetDependency */,
+			);
+			name = "Noosphera-traineeUITests";
+			productName = "Noosphera-traineeUITests";
+			productReference = DD4B29AC205BBA3B00E159AF /* Noosphera-traineeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD4B2982205BBA3B00E159AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Лев Купчинов";
+				TargetAttributes = {
+					DD4B2989205BBA3B00E159AF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DD4B29A0205BBA3B00E159AF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DD4B2989205BBA3B00E159AF;
+					};
+					DD4B29AB205BBA3B00E159AF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DD4B2989205BBA3B00E159AF;
+					};
+				};
+			};
+			buildConfigurationList = DD4B2985205BBA3B00E159AF /* Build configuration list for PBXProject "Noosphera-trainee" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD4B2981205BBA3B00E159AF;
+			productRefGroup = DD4B298B205BBA3B00E159AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD4B2989205BBA3B00E159AF /* Noosphera-trainee */,
+				DD4B29A0205BBA3B00E159AF /* Noosphera-traineeTests */,
+				DD4B29AB205BBA3B00E159AF /* Noosphera-traineeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD4B2988205BBA3B00E159AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4B299B205BBA3B00E159AF /* LaunchScreen.storyboard in Resources */,
+				DD4B2998205BBA3B00E159AF /* Assets.xcassets in Resources */,
+				DD4B2993205BBA3B00E159AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4B299F205BBA3B00E159AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4B29AA205BBA3B00E159AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD4B2986205BBA3B00E159AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4B2990205BBA3B00E159AF /* ViewController.swift in Sources */,
+				DD4B2996205BBA3B00E159AF /* Noosphera_trainee.xcdatamodeld in Sources */,
+				DD4B298E205BBA3B00E159AF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4B299D205BBA3B00E159AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4B29A6205BBA3B00E159AF /* Noosphera_traineeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4B29A8205BBA3B00E159AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4B29B1205BBA3B00E159AF /* Noosphera_traineeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD4B29A3205BBA3B00E159AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD4B2989205BBA3B00E159AF /* Noosphera-trainee */;
+			targetProxy = DD4B29A2205BBA3B00E159AF /* PBXContainerItemProxy */;
+		};
+		DD4B29AE205BBA3B00E159AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD4B2989205BBA3B00E159AF /* Noosphera-trainee */;
+			targetProxy = DD4B29AD205BBA3B00E159AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD4B2991205BBA3B00E159AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD4B2992205BBA3B00E159AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD4B2999205BBA3B00E159AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD4B299A205BBA3B00E159AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD4B29B3205BBA3B00E159AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD4B29B4205BBA3B00E159AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD4B29B6205BBA3B00E159AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y99BXB85M4;
+				INFOPLIST_FILE = "Noosphera-trainee/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "s.levkupchinov.Noosphera-trainee";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD4B29B7205BBA3B00E159AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y99BXB85M4;
+				INFOPLIST_FILE = "Noosphera-trainee/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "s.levkupchinov.Noosphera-trainee";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD4B29B9205BBA3B00E159AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y99BXB85M4;
+				INFOPLIST_FILE = "Noosphera-traineeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "s.levkupchinov.Noosphera-traineeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Noosphera-trainee.app/Noosphera-trainee";
+			};
+			name = Debug;
+		};
+		DD4B29BA205BBA3B00E159AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y99BXB85M4;
+				INFOPLIST_FILE = "Noosphera-traineeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "s.levkupchinov.Noosphera-traineeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Noosphera-trainee.app/Noosphera-trainee";
+			};
+			name = Release;
+		};
+		DD4B29BC205BBA3B00E159AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y99BXB85M4;
+				INFOPLIST_FILE = "Noosphera-traineeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "s.levkupchinov.Noosphera-traineeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Noosphera-trainee";
+			};
+			name = Debug;
+		};
+		DD4B29BD205BBA3B00E159AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y99BXB85M4;
+				INFOPLIST_FILE = "Noosphera-traineeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "s.levkupchinov.Noosphera-traineeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Noosphera-trainee";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD4B2985205BBA3B00E159AF /* Build configuration list for PBXProject "Noosphera-trainee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD4B29B3205BBA3B00E159AF /* Debug */,
+				DD4B29B4205BBA3B00E159AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD4B29B5205BBA3B00E159AF /* Build configuration list for PBXNativeTarget "Noosphera-trainee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD4B29B6205BBA3B00E159AF /* Debug */,
+				DD4B29B7205BBA3B00E159AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD4B29B8205BBA3B00E159AF /* Build configuration list for PBXNativeTarget "Noosphera-traineeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD4B29B9205BBA3B00E159AF /* Debug */,
+				DD4B29BA205BBA3B00E159AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD4B29BB205BBA3B00E159AF /* Build configuration list for PBXNativeTarget "Noosphera-traineeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD4B29BC205BBA3B00E159AF /* Debug */,
+				DD4B29BD205BBA3B00E159AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DD4B2994205BBA3B00E159AF /* Noosphera_trainee.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DD4B2995205BBA3B00E159AF /* Noosphera_trainee.xcdatamodel */,
+			);
+			currentVersion = DD4B2995205BBA3B00E159AF /* Noosphera_trainee.xcdatamodel */;
+			path = Noosphera_trainee.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DD4B2982205BBA3B00E159AF /* Project object */;
+}
