@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74628DA6EC8B6EAD72AC60F0 /* Pods_Noosphera_traineeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5CB24E58850E2B6E2F85424 /* Pods_Noosphera_traineeTests.framework */; };
+		801B7D48CD7EED87F82790FA /* Pods_Noosphera_traineeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B58D906B1C493B3939EADFF /* Pods_Noosphera_traineeUITests.framework */; };
+		82F547B9CDB6CF6DA5C1BDF2 /* Pods_Noosphera_trainee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5C6F78586ABADEE8633E23 /* Pods_Noosphera_trainee.framework */; };
+		8FAEFE3BB882C1CBFF163EFF /* Pods_Noosphera_trainee_Noosphera_traineeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EBC11602F956F57A249519 /* Pods_Noosphera_trainee_Noosphera_traineeTests.framework */; };
 		DD4B298E205BBA3B00E159AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4B298D205BBA3B00E159AF /* AppDelegate.swift */; };
-		DD4B2990205BBA3B00E159AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4B298F205BBA3B00E159AF /* ViewController.swift */; };
 		DD4B2993205BBA3B00E159AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4B2991205BBA3B00E159AF /* Main.storyboard */; };
 		DD4B2996205BBA3B00E159AF /* Noosphera_trainee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD4B2994205BBA3B00E159AF /* Noosphera_trainee.xcdatamodeld */; };
 		DD4B2998205BBA3B00E159AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD4B2997205BBA3B00E159AF /* Assets.xcassets */; };
 		DD4B299B205BBA3B00E159AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4B2999205BBA3B00E159AF /* LaunchScreen.storyboard */; };
 		DD4B29A6205BBA3B00E159AF /* Noosphera_traineeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4B29A5205BBA3B00E159AF /* Noosphera_traineeTests.swift */; };
 		DD4B29B1205BBA3B00E159AF /* Noosphera_traineeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4B29B0205BBA3B00E159AF /* Noosphera_traineeUITests.swift */; };
+		DD4B29BF205BBAD000E159AF /* AuthorizationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4B29BE205BBAD000E159AF /* AuthorizationVC.swift */; };
+		DD92AD6D205E8BEB00E6281A /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD92AD6C205E8BEB00E6281A /* Requests.swift */; };
+		DD92AD6F205E971D00E6281A /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD92AD6E205E971D00E6281A /* Reachability.swift */; };
+		DD92AD7D205ED2DE00E6281A /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD92AD7C205ED2DE00E6281A /* Alerts.swift */; };
+		DD92AD80205ED45A00E6281A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD92AD82205ED45A00E6281A /* Localizable.strings */; };
+		DDB02751205BBBFA0091F6B7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = DDB02750205BBBFA0091F6B7 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +44,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C67CD381D62E08AF803945F /* Pods-Noosphera-traineeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noosphera-traineeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Noosphera-traineeUITests/Pods-Noosphera-traineeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		14E859FB822A1BDFADCEC17A /* Pods-Noosphera-traineeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noosphera-traineeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Noosphera-traineeUITests/Pods-Noosphera-traineeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		14EBC11602F956F57A249519 /* Pods_Noosphera_trainee_Noosphera_traineeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Noosphera_trainee_Noosphera_traineeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DA31B0BD2979BB6197753AC /* Pods-Noosphera-trainee-Noosphera-traineeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noosphera-trainee-Noosphera-traineeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Noosphera-trainee-Noosphera-traineeTests/Pods-Noosphera-trainee-Noosphera-traineeTests.release.xcconfig"; sourceTree = "<group>"; };
+		36DD14D9CFA5DDADE246B032 /* Pods-Noosphera-trainee-Noosphera-traineeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noosphera-trainee-Noosphera-traineeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Noosphera-trainee-Noosphera-traineeTests/Pods-Noosphera-trainee-Noosphera-traineeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		463B0EFCC5891A41F051746B /* Pods-Noosphera-traineeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noosphera-traineeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Noosphera-traineeTests/Pods-Noosphera-traineeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B58D906B1C493B3939EADFF /* Pods_Noosphera_traineeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Noosphera_traineeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69FF33B8A8CF0B9EB44059E2 /* Pods-Noosphera-traineeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noosphera-traineeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Noosphera-traineeTests/Pods-Noosphera-traineeTests.release.xcconfig"; sourceTree = "<group>"; };
+		8E5C6F78586ABADEE8633E23 /* Pods_Noosphera_trainee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Noosphera_trainee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92A4B631D6AA6245D9CD6FC3 /* Pods-Noosphera-trainee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noosphera-trainee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Noosphera-trainee/Pods-Noosphera-trainee.debug.xcconfig"; sourceTree = "<group>"; };
+		A3BAE3941207C1D8B88CFE01 /* Pods-Noosphera-trainee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noosphera-trainee.release.xcconfig"; path = "Pods/Target Support Files/Pods-Noosphera-trainee/Pods-Noosphera-trainee.release.xcconfig"; sourceTree = "<group>"; };
 		DD4B298A205BBA3B00E159AF /* Noosphera-trainee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Noosphera-trainee.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4B298D205BBA3B00E159AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DD4B298F205BBA3B00E159AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DD4B2992205BBA3B00E159AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD4B2995205BBA3B00E159AF /* Noosphera_trainee.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Noosphera_trainee.xcdatamodel; sourceTree = "<group>"; };
 		DD4B2997205BBA3B00E159AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +68,17 @@
 		DD4B29AC205BBA3B00E159AF /* Noosphera-traineeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Noosphera-traineeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4B29B0205BBA3B00E159AF /* Noosphera_traineeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Noosphera_traineeUITests.swift; sourceTree = "<group>"; };
 		DD4B29B2205BBA3B00E159AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD4B29BE205BBAD000E159AF /* AuthorizationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationVC.swift; sourceTree = "<group>"; };
+		DD92AD6C205E8BEB00E6281A /* Requests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requests.swift; sourceTree = "<group>"; };
+		DD92AD6E205E971D00E6281A /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		DD92AD70205E9B5600E6281A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		DD92AD71205E9B5600E6281A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		DD92AD73205EB1C800E6281A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		DD92AD7C205ED2DE00E6281A /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		DD92AD81205ED45A00E6281A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DD92AD83205ED45B00E6281A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DDB02750205BBBFA0091F6B7 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		E5CB24E58850E2B6E2F85424 /* Pods_Noosphera_traineeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Noosphera_traineeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82F547B9CDB6CF6DA5C1BDF2 /* Pods_Noosphera_trainee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +94,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74628DA6EC8B6EAD72AC60F0 /* Pods_Noosphera_traineeTests.framework in Frameworks */,
+				8FAEFE3BB882C1CBFF163EFF /* Pods_Noosphera_trainee_Noosphera_traineeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +103,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				801B7D48CD7EED87F82790FA /* Pods_Noosphera_traineeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		034EA9857B47E15CE9F1C176 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E5C6F78586ABADEE8633E23 /* Pods_Noosphera_trainee.framework */,
+				E5CB24E58850E2B6E2F85424 /* Pods_Noosphera_traineeTests.framework */,
+				4B58D906B1C493B3939EADFF /* Pods_Noosphera_traineeUITests.framework */,
+				14EBC11602F956F57A249519 /* Pods_Noosphera_trainee_Noosphera_traineeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5594FE035B5247CD89B4459 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92A4B631D6AA6245D9CD6FC3 /* Pods-Noosphera-trainee.debug.xcconfig */,
+				A3BAE3941207C1D8B88CFE01 /* Pods-Noosphera-trainee.release.xcconfig */,
+				463B0EFCC5891A41F051746B /* Pods-Noosphera-traineeTests.debug.xcconfig */,
+				69FF33B8A8CF0B9EB44059E2 /* Pods-Noosphera-traineeTests.release.xcconfig */,
+				14E859FB822A1BDFADCEC17A /* Pods-Noosphera-traineeUITests.debug.xcconfig */,
+				0C67CD381D62E08AF803945F /* Pods-Noosphera-traineeUITests.release.xcconfig */,
+				36DD14D9CFA5DDADE246B032 /* Pods-Noosphera-trainee-Noosphera-traineeTests.debug.xcconfig */,
+				1DA31B0BD2979BB6197753AC /* Pods-Noosphera-trainee-Noosphera-traineeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DD4B2981205BBA3B00E159AF = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +143,8 @@
 				DD4B29A4205BBA3B00E159AF /* Noosphera-traineeTests */,
 				DD4B29AF205BBA3B00E159AF /* Noosphera-traineeUITests */,
 				DD4B298B205BBA3B00E159AF /* Products */,
+				A5594FE035B5247CD89B4459 /* Pods */,
+				034EA9857B47E15CE9F1C176 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +161,13 @@
 		DD4B298C205BBA3B00E159AF /* Noosphera-trainee */ = {
 			isa = PBXGroup;
 			children = (
+				DD92AD7B205ED0A800E6281A /* Model */,
+				DD92AD7A205ED0A200E6281A /* View */,
+				DD92AD78205ED08E00E6281A /* Controller */,
 				DD4B298D205BBA3B00E159AF /* AppDelegate.swift */,
-				DD4B298F205BBA3B00E159AF /* ViewController.swift */,
-				DD4B2991205BBA3B00E159AF /* Main.storyboard */,
-				DD4B2997205BBA3B00E159AF /* Assets.xcassets */,
-				DD4B2999205BBA3B00E159AF /* LaunchScreen.storyboard */,
+				DDB02750205BBBFA0091F6B7 /* Podfile */,
 				DD4B299C205BBA3B00E159AF /* Info.plist */,
-				DD4B2994205BBA3B00E159AF /* Noosphera_trainee.xcdatamodeld */,
+				DD92AD76205ECFE900E6281A /* Resources */,
 			);
 			path = "Noosphera-trainee";
 			sourceTree = "<group>";
@@ -128,6 +190,43 @@
 			path = "Noosphera-traineeUITests";
 			sourceTree = "<group>";
 		};
+		DD92AD76205ECFE900E6281A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DD4B2999205BBA3B00E159AF /* LaunchScreen.storyboard */,
+				DD4B2997205BBA3B00E159AF /* Assets.xcassets */,
+				DD92AD82205ED45A00E6281A /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DD92AD78205ED08E00E6281A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DD4B29BE205BBAD000E159AF /* AuthorizationVC.swift */,
+				DD4B2991205BBA3B00E159AF /* Main.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DD92AD7A205ED0A200E6281A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD92AD6E205E971D00E6281A /* Reachability.swift */,
+				DD92AD6C205E8BEB00E6281A /* Requests.swift */,
+				DD92AD7C205ED2DE00E6281A /* Alerts.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DD92AD7B205ED0A800E6281A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD4B2994205BBA3B00E159AF /* Noosphera_trainee.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD4B29B5205BBA3B00E159AF /* Build configuration list for PBXNativeTarget "Noosphera-trainee" */;
 			buildPhases = (
+				1D006BC06FA138E576F6BAB6 /* [CP] Check Pods Manifest.lock */,
 				DD4B2986205BBA3B00E159AF /* Sources */,
 				DD4B2987205BBA3B00E159AF /* Frameworks */,
 				DD4B2988205BBA3B00E159AF /* Resources */,
+				60681E2C0E179B3DB1B786F8 /* [CP] Embed Pods Frameworks */,
+				3C573E49384BDA6ED2E813C1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +254,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD4B29B8205BBA3B00E159AF /* Build configuration list for PBXNativeTarget "Noosphera-traineeTests" */;
 			buildPhases = (
+				85EB7B21B6AFAFF24340EDA0 /* [CP] Check Pods Manifest.lock */,
 				DD4B299D205BBA3B00E159AF /* Sources */,
 				DD4B299E205BBA3B00E159AF /* Frameworks */,
 				DD4B299F205BBA3B00E159AF /* Resources */,
+				337B9D92755F8548762BFD20 /* [CP] Embed Pods Frameworks */,
+				0F344F1798E7EAAF0EEEA343 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +275,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD4B29BB205BBA3B00E159AF /* Build configuration list for PBXNativeTarget "Noosphera-traineeUITests" */;
 			buildPhases = (
+				04419D2B0C0B4728D8FA252B /* [CP] Check Pods Manifest.lock */,
 				DD4B29A8205BBA3B00E159AF /* Sources */,
 				DD4B29A9205BBA3B00E159AF /* Frameworks */,
 				DD4B29AA205BBA3B00E159AF /* Resources */,
+				E69982D945E75050A7881DAB /* [CP] Embed Pods Frameworks */,
+				9E1208259D6FCC45ADB5DED1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -217,6 +325,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = DD4B2981205BBA3B00E159AF;
 			productRefGroup = DD4B298B205BBA3B00E159AF /* Products */;
@@ -235,8 +344,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD92AD80205ED45A00E6281A /* Localizable.strings in Resources */,
 				DD4B299B205BBA3B00E159AF /* LaunchScreen.storyboard in Resources */,
 				DD4B2998205BBA3B00E159AF /* Assets.xcassets in Resources */,
+				DDB02751205BBBFA0091F6B7 /* Podfile in Resources */,
 				DD4B2993205BBA3B00E159AF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,13 +368,173 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04419D2B0C0B4728D8FA252B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Noosphera-traineeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0F344F1798E7EAAF0EEEA343 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Noosphera-traineeTests/Pods-Noosphera-traineeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D006BC06FA138E576F6BAB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Noosphera-trainee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		337B9D92755F8548762BFD20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Noosphera-trainee-Noosphera-traineeTests/Pods-Noosphera-trainee-Noosphera-traineeTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Noosphera-traineeTests/Pods-Noosphera-traineeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C573E49384BDA6ED2E813C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Noosphera-trainee/Pods-Noosphera-trainee-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60681E2C0E179B3DB1B786F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Noosphera-trainee/Pods-Noosphera-trainee-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Noosphera-trainee/Pods-Noosphera-trainee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85EB7B21B6AFAFF24340EDA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Noosphera-traineeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E1208259D6FCC45ADB5DED1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Noosphera-traineeUITests/Pods-Noosphera-traineeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E69982D945E75050A7881DAB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Noosphera-traineeUITests/Pods-Noosphera-traineeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DD4B2986205BBA3B00E159AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD4B2990205BBA3B00E159AF /* ViewController.swift in Sources */,
 				DD4B2996205BBA3B00E159AF /* Noosphera_trainee.xcdatamodeld in Sources */,
+				DD92AD6F205E971D00E6281A /* Reachability.swift in Sources */,
+				DD4B29BF205BBAD000E159AF /* AuthorizationVC.swift in Sources */,
+				DD92AD6D205E8BEB00E6281A /* Requests.swift in Sources */,
+				DD92AD7D205ED2DE00E6281A /* Alerts.swift in Sources */,
 				DD4B298E205BBA3B00E159AF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +575,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				DD4B2992205BBA3B00E159AF /* Base */,
+				DD92AD70205E9B5600E6281A /* ru */,
+				DD92AD73205EB1C800E6281A /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -312,8 +585,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				DD4B299A205BBA3B00E159AF /* Base */,
+				DD92AD71205E9B5600E6281A /* ru */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DD92AD82205ED45A00E6281A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD92AD81205ED45A00E6281A /* en */,
+				DD92AD83205ED45B00E6281A /* ru */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -323,6 +606,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -380,6 +664,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -428,6 +713,7 @@
 		};
 		DD4B29B6205BBA3B00E159AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92A4B631D6AA6245D9CD6FC3 /* Pods-Noosphera-trainee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +729,7 @@
 		};
 		DD4B29B7205BBA3B00E159AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3BAE3941207C1D8B88CFE01 /* Pods-Noosphera-trainee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -458,6 +745,7 @@
 		};
 		DD4B29B9205BBA3B00E159AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 463B0EFCC5891A41F051746B /* Pods-Noosphera-traineeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +763,7 @@
 		};
 		DD4B29BA205BBA3B00E159AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69FF33B8A8CF0B9EB44059E2 /* Pods-Noosphera-traineeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +781,7 @@
 		};
 		DD4B29BC205BBA3B00E159AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14E859FB822A1BDFADCEC17A /* Pods-Noosphera-traineeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +798,7 @@
 		};
 		DD4B29BD205BBA3B00E159AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C67CD381D62E08AF803945F /* Pods-Noosphera-traineeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

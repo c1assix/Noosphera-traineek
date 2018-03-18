@@ -7,7 +7,25 @@
 		<key>Noosphera-trainee.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>5</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>DD4B2989205BBA3B00E159AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DD4B29A0205BBA3B00E159AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DD4B29AB205BBA3B00E159AF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
