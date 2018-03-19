@@ -20,7 +20,7 @@ class AuthorizationVC: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         isLogged()
-        
+        //giveMaskToTextField()
         // Do any additional setup after loading the view.
     }
 
@@ -32,14 +32,14 @@ class AuthorizationVC: UIViewController{
     // MARK: - Actions
     
     @IBAction func loginAction(_ sender: UIButton) {
-        self.loginRequest(phone: self.phoneTextField.text!, password: self.passwordTextField.text!)
+        loginRequest(phone:  self.phoneTextField.text!, password: self.passwordTextField.text!){
             if UserDefaults.standard.string(forKey: "hashValue") != nil {
                 self.performSegue(withIdentifier: "fromLoginSegue", sender: nil)
                 self.clearTextFields()
             } else {
                 self.loginError()
             }
-        
+        }
     }
     
     func isLogged(){
@@ -55,6 +55,14 @@ class AuthorizationVC: UIViewController{
     func clearTextFields(){
         phoneTextField.text = ""
         passwordTextField.text = ""
+    }
+    
+    func giveMaskToTextField(){
+        let plusLabel = UILabel()
+        plusLabel.text = " +"
+        plusLabel.sizeToFit()
+        phoneTextField.leftView = plusLabel
+        phoneTextField.leftViewMode = UITextFieldViewMode.always
     }
     
     

@@ -14,7 +14,7 @@ protocol Requests{
 }
 
 extension NSObject: Requests{
-    func loginRequest(phone: String, password: String) -> Void{
+    func loginRequest(phone: String, password: String, complitionHandler: @escaping () -> ()){
         guard let url = URL(string: "http://noosfera.online/api/v1/login") else {return}
         let parameters = ["phone" : phone, "password" : password]
             request(url, method: .post, parameters: parameters).responseJSON { (response) in
@@ -29,8 +29,11 @@ extension NSObject: Requests{
                     let isValid = json["result"].int!
                     let hash = json["hash"].string
                     UserDefaults.standard.set(hash, forKey: "hashValue")
+                    
                     break
                 }
+                complitionHandler()
         }
+        
     }
 }
