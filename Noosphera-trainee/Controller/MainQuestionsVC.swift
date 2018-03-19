@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MainQuestionsVC: UIViewController {
+class MainQuestionsVC: UIViewController{
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,8 +23,15 @@ class MainQuestionsVC: UIViewController {
     
     @IBAction func logoutAction(_ sender: UIButton) {
         UserDefaults.standard.removeObject(forKey: "hashValue")
-        navigationController?.popToRootViewController(animated: true)
+            navigationController?.popToRootViewController(animated: true)
+        guard let window = UIApplication.shared.keyWindow else {return}
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        var vc: UIViewController
+        vc = sb.instantiateInitialViewController()!
+        window.rootViewController = vc
+        UIView.transition(with: window, duration: 0.5, options: .transitionCrossDissolve, animations: nil, completion: nil)
     }
+
     
     /*
     // MARK: - Navigation

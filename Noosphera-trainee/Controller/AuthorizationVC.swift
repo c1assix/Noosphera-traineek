@@ -32,13 +32,14 @@ class AuthorizationVC: UIViewController{
     // MARK: - Actions
     
     @IBAction func loginAction(_ sender: UIButton) {
-        try? self.loginRequest(phone: self.phoneTextField.text!, password: self.passwordTextField.text!)
+        self.loginRequest(phone: self.phoneTextField.text!, password: self.passwordTextField.text!)
             if UserDefaults.standard.string(forKey: "hashValue") != nil {
                 self.performSegue(withIdentifier: "fromLoginSegue", sender: nil)
                 self.clearTextFields()
             } else {
                 self.loginError()
             }
+        
     }
     
     func isLogged(){

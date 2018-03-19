@@ -29,7 +29,7 @@
         <!--Noosphera-->
         <scene sceneID="s3g-CG-jzi">
             <objects>
-                <viewController id="0rn-w4-F7m" customClass="AuthorizationVC" customModule="Noosphera_trainee" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="login" id="0rn-w4-F7m" customClass="AuthorizationVC" customModule="Noosphera_trainee" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="L6x-eF-Kin">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -137,7 +137,7 @@
         <!--Noosphera-->
         <scene sceneID="Ybg-IZ-vyb">
             <objects>
-                <tabBarController title="Noosphera" id="hm9-me-IYN" customClass="TabBarVC" customModule="Noosphera_trainee" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="main" title="Noosphera" id="hm9-me-IYN" customClass="TabBarVC" customModule="Noosphera_trainee" customModuleProvider="target" sceneMemberID="viewController">
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="YDO-oB-vVp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
