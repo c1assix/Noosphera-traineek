@@ -34,23 +34,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Phone" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ICX-IH-SRm">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Phone" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ICX-IH-SRm">
                                 <rect key="frame" x="73" y="107" width="228" height="38"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="38" id="zk8-J2-6vq"/>
                                 </constraints>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="30"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="next" textContentType="tel"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xCk-8a-mNf" propertyAccessControl="all">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xCk-8a-mNf">
                                 <rect key="frame" x="73" y="169" width="228" height="38"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="38" id="czx-RJ-8uy"/>
                                 </constraints>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="30"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="next" textContentType="tel"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="next" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6eq-1v-FlH">
                                 <rect key="frame" x="73" y="247" width="228" height="51"/>
@@ -85,7 +85,7 @@
                     <connections>
                         <outlet property="passwordTextField" destination="xCk-8a-mNf" id="K4o-Vg-U2j"/>
                         <outlet property="phoneTextField" destination="ICX-IH-SRm" id="oR5-k1-9hi"/>
-                        <segue destination="hm9-me-IYN" kind="show" id="iTZ-qX-9MU"/>
+                        <segue destination="hm9-me-IYN" kind="show" identifier="fromLoginSegue" id="iTZ-qX-9MU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ew7-zB-J4i" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -111,10 +111,20 @@
         <!--Item 1-->
         <scene sceneID="J3F-lL-gre">
             <objects>
-                <viewController id="rjT-qw-T50" sceneMemberID="viewController">
+                <viewController id="rjT-qw-T50" customClass="MainQuestionsVC" customModule="Noosphera_trainee" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9uw-YK-gSp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p9P-qQ-YUJ">
+                                <rect key="frame" x="163" y="544" width="48" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Logout"/>
+                                <connections>
+                                    <action selector="logoutAction:" destination="rjT-qw-T50" eventType="touchUpInside" id="6HI-1j-Y0G"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="0qm-fg-zlP"/>
                     </view>
@@ -127,7 +137,7 @@
         <!--Noosphera-->
         <scene sceneID="Ybg-IZ-vyb">
             <objects>
-                <tabBarController title="Noosphera" id="hm9-me-IYN" sceneMemberID="viewController">
+                <tabBarController title="Noosphera" id="hm9-me-IYN" customClass="TabBarVC" customModule="Noosphera_trainee" customModuleProvider="target" sceneMemberID="viewController">
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="YDO-oB-vVp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>

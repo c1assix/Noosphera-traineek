@@ -10,7 +10,6 @@ import Foundation
 import UIKit
 
 protocol Alerts{
-    
 }
 
 extension UIViewController: Alerts{
@@ -31,5 +30,11 @@ extension UIViewController: Alerts{
         self.present(alert, animated: true, completion: nil)
     }
     
+    func loginError(){
+        let alert = UIAlertController(title: NSLocalizedString("ErrorLoginTitle", comment: ""), message: NSLocalizedString("ErrorLoginMessage", comment: ""), preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { (action) in
+        }))
+        self.present(alert, animated: true, completion: nil)
+    }
     
 }

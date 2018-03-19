@@ -7,3 +7,6 @@
 */
 NoInternetConnectionTitle = "Отсутсвует подключение к интернету";
 NoInternetConnectionMessage = "Пожалуйста, включите WiFi или сотовые данные";
+
+ErrorLoginTitle = "Ошибка";
+ErrorLoginMessage = "Пожалуйста, проверьте ваш логин и пароль";

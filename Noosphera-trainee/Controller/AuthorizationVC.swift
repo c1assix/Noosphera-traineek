@@ -14,12 +14,13 @@ class AuthorizationVC: UIViewController{
     @IBOutlet weak var phoneTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     
+    override func viewDidAppear(_ animated: Bool) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        isLogged()
         
-        if currentReachabilityStatus == .notReachable {
-            noInternetConnectionAlert()
-        }
         // Do any additional setup after loading the view.
     }
 
@@ -31,7 +32,28 @@ class AuthorizationVC: UIViewController{
     // MARK: - Actions
     
     @IBAction func loginAction(_ sender: UIButton) {
-        loginRequest(phone: phoneTextField.text!, password: passwordTextField.text!)
+        try? self.loginRequest(phone: self.phoneTextField.text!, password: self.passwordTextField.text!)
+            if UserDefaults.standard.string(forKey: "hashValue") != nil {
+                self.performSegue(withIdentifier: "fromLoginSegue", sender: nil)
+                self.clearTextFields()
+            } else {
+                self.loginError()
+            }
+    }
+    
+    func isLogged(){
+        if let _ = UserDefaults.standard.string(forKey: "hashValue"){
+            self.performSegue(withIdentifier: "fromLoginSegue", sender: nil)
+        } else {
+            if currentReachabilityStatus == .notReachable {
+                noInternetConnectionAlert()
+            }
+        }
+    }
+    
+    func clearTextFields(){
+        phoneTextField.text = ""
+        passwordTextField.text = ""
     }
     
     

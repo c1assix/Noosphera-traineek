@@ -23,7 +23,9 @@
 		DD92AD6F205E971D00E6281A /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD92AD6E205E971D00E6281A /* Reachability.swift */; };
 		DD92AD7D205ED2DE00E6281A /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD92AD7C205ED2DE00E6281A /* Alerts.swift */; };
 		DD92AD80205ED45A00E6281A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD92AD82205ED45A00E6281A /* Localizable.strings */; };
+		DD92AD85205F081E00E6281A /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD92AD84205F081E00E6281A /* TabBarVC.swift */; };
 		DDB02751205BBBFA0091F6B7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = DDB02750205BBBFA0091F6B7 /* Podfile */; };
+		DDDF115B205F0BE200D7FCAA /* MainQuestionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDF115A205F0BE200D7FCAA /* MainQuestionsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,7 +79,9 @@
 		DD92AD7C205ED2DE00E6281A /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 		DD92AD81205ED45A00E6281A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		DD92AD83205ED45B00E6281A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DD92AD84205F081E00E6281A /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		DDB02750205BBBFA0091F6B7 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		DDDF115A205F0BE200D7FCAA /* MainQuestionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainQuestionsVC.swift; sourceTree = "<group>"; };
 		E5CB24E58850E2B6E2F85424 /* Pods_Noosphera_traineeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Noosphera_traineeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -204,6 +208,8 @@
 			isa = PBXGroup;
 			children = (
 				DD4B29BE205BBAD000E159AF /* AuthorizationVC.swift */,
+				DD92AD84205F081E00E6281A /* TabBarVC.swift */,
+				DDDF115A205F0BE200D7FCAA /* MainQuestionsVC.swift */,
 				DD4B2991205BBA3B00E159AF /* Main.storyboard */,
 			);
 			path = Controller;
@@ -530,6 +536,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD92AD85205F081E00E6281A /* TabBarVC.swift in Sources */,
+				DDDF115B205F0BE200D7FCAA /* MainQuestionsVC.swift in Sources */,
 				DD4B2996205BBA3B00E159AF /* Noosphera_trainee.xcdatamodeld in Sources */,
 				DD92AD6F205E971D00E6281A /* Reachability.swift in Sources */,
 				DD4B29BF205BBAD000E159AF /* AuthorizationVC.swift in Sources */,
