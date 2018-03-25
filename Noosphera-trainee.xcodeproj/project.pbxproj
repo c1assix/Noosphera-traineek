@@ -11,6 +11,11 @@
 		801B7D48CD7EED87F82790FA /* Pods_Noosphera_traineeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B58D906B1C493B3939EADFF /* Pods_Noosphera_traineeUITests.framework */; };
 		82F547B9CDB6CF6DA5C1BDF2 /* Pods_Noosphera_trainee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E5C6F78586ABADEE8633E23 /* Pods_Noosphera_trainee.framework */; };
 		8FAEFE3BB882C1CBFF163EFF /* Pods_Noosphera_trainee_Noosphera_traineeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EBC11602F956F57A249519 /* Pods_Noosphera_trainee_Noosphera_traineeTests.framework */; };
+		DD0EB36A2060EDC200C0FBBC /* SignUpGetCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0EB3692060EDC200C0FBBC /* SignUpGetCodeViewController.swift */; };
+		DD0EB36C2061079400C0FBBC /* SignUpSetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0EB36B2061079400C0FBBC /* SignUpSetPasswordViewController.swift */; };
+		DD0EB36F2062EAA400C0FBBC /* LocalizationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0EB36E2062EAA400C0FBBC /* LocalizationExtension.swift */; };
+		DD2D3A302063E1670025A744 /* Authorization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD2D3A2E2063E1670025A744 /* Authorization.storyboard */; };
+		DD2D3A322063E4960025A744 /* SegueIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2D3A312063E4960025A744 /* SegueIdentifiers.swift */; };
 		DD4B298E205BBA3B00E159AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4B298D205BBA3B00E159AF /* AppDelegate.swift */; };
 		DD4B2993205BBA3B00E159AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4B2991205BBA3B00E159AF /* Main.storyboard */; };
 		DD4B2996205BBA3B00E159AF /* Noosphera_trainee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD4B2994205BBA3B00E159AF /* Noosphera_trainee.xcdatamodeld */; };
@@ -18,14 +23,19 @@
 		DD4B299B205BBA3B00E159AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4B2999205BBA3B00E159AF /* LaunchScreen.storyboard */; };
 		DD4B29A6205BBA3B00E159AF /* Noosphera_traineeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4B29A5205BBA3B00E159AF /* Noosphera_traineeTests.swift */; };
 		DD4B29B1205BBA3B00E159AF /* Noosphera_traineeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4B29B0205BBA3B00E159AF /* Noosphera_traineeUITests.swift */; };
-		DD4B29BF205BBAD000E159AF /* AuthorizationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4B29BE205BBAD000E159AF /* AuthorizationVC.swift */; };
-		DD92AD6D205E8BEB00E6281A /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD92AD6C205E8BEB00E6281A /* Requests.swift */; };
-		DD92AD6F205E971D00E6281A /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD92AD6E205E971D00E6281A /* Reachability.swift */; };
-		DD92AD7D205ED2DE00E6281A /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD92AD7C205ED2DE00E6281A /* Alerts.swift */; };
+		DD4B29BF205BBAD000E159AF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4B29BE205BBAD000E159AF /* LoginViewController.swift */; };
+		DD8395A3205FE8D200F56D5C /* Authenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8395A2205FE8D200F56D5C /* Authenticator.swift */; };
+		DD8395A5205FE99E00F56D5C /* URLContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8395A4205FE99E00F56D5C /* URLContainer.swift */; };
+		DD8395A7205FEA8A00F56D5C /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8395A6205FEA8A00F56D5C /* Settings.swift */; };
+		DD8395AA205FEC6D00F56D5C /* AuthenticationParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8395A9205FEC6D00F56D5C /* AuthenticationParser.swift */; };
+		DD8395AC205FEDC300F56D5C /* RequestResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8395AB205FEDC300F56D5C /* RequestResult.swift */; };
+		DD92AD6F205E971D00E6281A /* UIViewController+Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD92AD6E205E971D00E6281A /* UIViewController+Reachability.swift */; };
+		DD92AD7D205ED2DE00E6281A /* UIViewController+Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD92AD7C205ED2DE00E6281A /* UIViewController+Alerts.swift */; };
 		DD92AD80205ED45A00E6281A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD92AD82205ED45A00E6281A /* Localizable.strings */; };
-		DD92AD85205F081E00E6281A /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD92AD84205F081E00E6281A /* TabBarVC.swift */; };
 		DDB02751205BBBFA0091F6B7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = DDB02750205BBBFA0091F6B7 /* Podfile */; };
-		DDDF115B205F0BE200D7FCAA /* MainQuestionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDF115A205F0BE200D7FCAA /* MainQuestionsVC.swift */; };
+		DDDF115B205F0BE200D7FCAA /* ProfileMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDF115A205F0BE200D7FCAA /* ProfileMenuViewController.swift */; };
+		DDE2A7DA2067991D00E0FDC8 /* MainQuestionsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE2A7D92067991D00E0FDC8 /* MainQuestionsListViewController.swift */; };
+		DDE2A7DC20679BC700E0FDC8 /* QuestionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE2A7DB20679BC700E0FDC8 /* QuestionTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +67,11 @@
 		8E5C6F78586ABADEE8633E23 /* Pods_Noosphera_trainee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Noosphera_trainee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A4B631D6AA6245D9CD6FC3 /* Pods-Noosphera-trainee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noosphera-trainee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Noosphera-trainee/Pods-Noosphera-trainee.debug.xcconfig"; sourceTree = "<group>"; };
 		A3BAE3941207C1D8B88CFE01 /* Pods-Noosphera-trainee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Noosphera-trainee.release.xcconfig"; path = "Pods/Target Support Files/Pods-Noosphera-trainee/Pods-Noosphera-trainee.release.xcconfig"; sourceTree = "<group>"; };
+		DD0EB3692060EDC200C0FBBC /* SignUpGetCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpGetCodeViewController.swift; sourceTree = "<group>"; };
+		DD0EB36B2061079400C0FBBC /* SignUpSetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpSetPasswordViewController.swift; sourceTree = "<group>"; };
+		DD0EB36E2062EAA400C0FBBC /* LocalizationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationExtension.swift; sourceTree = "<group>"; };
+		DD2D3A2F2063E1670025A744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Authorization.storyboard; sourceTree = "<group>"; };
+		DD2D3A312063E4960025A744 /* SegueIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueIdentifiers.swift; sourceTree = "<group>"; };
 		DD4B298A205BBA3B00E159AF /* Noosphera-trainee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Noosphera-trainee.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4B298D205BBA3B00E159AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD4B2992205BBA3B00E159AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -70,18 +85,23 @@
 		DD4B29AC205BBA3B00E159AF /* Noosphera-traineeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Noosphera-traineeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4B29B0205BBA3B00E159AF /* Noosphera_traineeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Noosphera_traineeUITests.swift; sourceTree = "<group>"; };
 		DD4B29B2205BBA3B00E159AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD4B29BE205BBAD000E159AF /* AuthorizationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationVC.swift; sourceTree = "<group>"; };
-		DD92AD6C205E8BEB00E6281A /* Requests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requests.swift; sourceTree = "<group>"; };
-		DD92AD6E205E971D00E6281A /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		DD4B29BE205BBAD000E159AF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DD8395A2205FE8D200F56D5C /* Authenticator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authenticator.swift; sourceTree = "<group>"; };
+		DD8395A4205FE99E00F56D5C /* URLContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLContainer.swift; sourceTree = "<group>"; };
+		DD8395A6205FEA8A00F56D5C /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		DD8395A9205FEC6D00F56D5C /* AuthenticationParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationParser.swift; sourceTree = "<group>"; };
+		DD8395AB205FEDC300F56D5C /* RequestResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestResult.swift; sourceTree = "<group>"; };
+		DD92AD6E205E971D00E6281A /* UIViewController+Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Reachability.swift"; sourceTree = "<group>"; };
 		DD92AD70205E9B5600E6281A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 		DD92AD71205E9B5600E6281A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		DD92AD73205EB1C800E6281A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
-		DD92AD7C205ED2DE00E6281A /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		DD92AD7C205ED2DE00E6281A /* UIViewController+Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alerts.swift"; sourceTree = "<group>"; };
 		DD92AD81205ED45A00E6281A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		DD92AD83205ED45B00E6281A /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
-		DD92AD84205F081E00E6281A /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
-		DDB02750205BBBFA0091F6B7 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
-		DDDF115A205F0BE200D7FCAA /* MainQuestionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainQuestionsVC.swift; sourceTree = "<group>"; };
+		DDB02750205BBBFA0091F6B7 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DDDF115A205F0BE200D7FCAA /* ProfileMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMenuViewController.swift; sourceTree = "<group>"; };
+		DDE2A7D92067991D00E0FDC8 /* MainQuestionsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainQuestionsListViewController.swift; sourceTree = "<group>"; };
+		DDE2A7DB20679BC700E0FDC8 /* QuestionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTableViewCell.swift; sourceTree = "<group>"; };
 		E5CB24E58850E2B6E2F85424 /* Pods_Noosphera_traineeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Noosphera_traineeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -165,9 +185,11 @@
 		DD4B298C205BBA3B00E159AF /* Noosphera-trainee */ = {
 			isa = PBXGroup;
 			children = (
+				DD8395A1205FE69600F56D5C /* Extensions */,
+				DD8395A0205FE68500F56D5C /* API */,
 				DD92AD7B205ED0A800E6281A /* Model */,
-				DD92AD7A205ED0A200E6281A /* View */,
-				DD92AD78205ED08E00E6281A /* Controller */,
+				DD92AD7A205ED0A200E6281A /* Utility */,
+				DD92AD78205ED08E00E6281A /* View Controllers */,
 				DD4B298D205BBA3B00E159AF /* AppDelegate.swift */,
 				DDB02750205BBBFA0091F6B7 /* Podfile */,
 				DD4B299C205BBA3B00E159AF /* Info.plist */,
@@ -194,6 +216,35 @@
 			path = "Noosphera-traineeUITests";
 			sourceTree = "<group>";
 		};
+		DD8395A0205FE68500F56D5C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				DD8395A8205FEC4700F56D5C /* Parsers */,
+				DD8395A2205FE8D200F56D5C /* Authenticator.swift */,
+				DD8395A4205FE99E00F56D5C /* URLContainer.swift */,
+				DD8395AB205FEDC300F56D5C /* RequestResult.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		DD8395A1205FE69600F56D5C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DD92AD7C205ED2DE00E6281A /* UIViewController+Alerts.swift */,
+				DD92AD6E205E971D00E6281A /* UIViewController+Reachability.swift */,
+				DD0EB36E2062EAA400C0FBBC /* LocalizationExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DD8395A8205FEC4700F56D5C /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				DD8395A9205FEC6D00F56D5C /* AuthenticationParser.swift */,
+			);
+			path = Parsers;
+			sourceTree = "<group>";
+		};
 		DD92AD76205ECFE900E6281A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,31 +255,34 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		DD92AD78205ED08E00E6281A /* Controller */ = {
+		DD92AD78205ED08E00E6281A /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				DD4B29BE205BBAD000E159AF /* AuthorizationVC.swift */,
-				DD92AD84205F081E00E6281A /* TabBarVC.swift */,
-				DDDF115A205F0BE200D7FCAA /* MainQuestionsVC.swift */,
+				DD4B29BE205BBAD000E159AF /* LoginViewController.swift */,
+				DD0EB3692060EDC200C0FBBC /* SignUpGetCodeViewController.swift */,
+				DD0EB36B2061079400C0FBBC /* SignUpSetPasswordViewController.swift */,
+				DDE2A7D92067991D00E0FDC8 /* MainQuestionsListViewController.swift */,
+				DDDF115A205F0BE200D7FCAA /* ProfileMenuViewController.swift */,
+				DD2D3A2E2063E1670025A744 /* Authorization.storyboard */,
 				DD4B2991205BBA3B00E159AF /* Main.storyboard */,
 			);
-			path = Controller;
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
-		DD92AD7A205ED0A200E6281A /* View */ = {
+		DD92AD7A205ED0A200E6281A /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				DD92AD6E205E971D00E6281A /* Reachability.swift */,
-				DD92AD6C205E8BEB00E6281A /* Requests.swift */,
-				DD92AD7C205ED2DE00E6281A /* Alerts.swift */,
+				DD2D3A312063E4960025A744 /* SegueIdentifiers.swift */,
 			);
-			path = View;
+			path = Utility;
 			sourceTree = "<group>";
 		};
 		DD92AD7B205ED0A800E6281A /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				DD4B2994205BBA3B00E159AF /* Noosphera_trainee.xcdatamodeld */,
+				DD8395A6205FEA8A00F56D5C /* Settings.swift */,
+				DDE2A7DB20679BC700E0FDC8 /* QuestionTableViewCell.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -246,6 +300,8 @@
 				DD4B2988205BBA3B00E159AF /* Resources */,
 				60681E2C0E179B3DB1B786F8 /* [CP] Embed Pods Frameworks */,
 				3C573E49384BDA6ED2E813C1 /* [CP] Copy Pods Resources */,
+				DD83959F205FE55E00F56D5C /* ShellScript */,
+				DD0EB3742063BB6E00C0FBBC /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -350,6 +406,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD2D3A302063E1670025A744 /* Authorization.storyboard in Resources */,
 				DD92AD80205ED45A00E6281A /* Localizable.strings in Resources */,
 				DD4B299B205BBA3B00E159AF /* LaunchScreen.storyboard in Resources */,
 				DD4B2998205BBA3B00E159AF /* Assets.xcassets in Resources */,
@@ -514,6 +571,32 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Noosphera-traineeUITests/Pods-Noosphera-traineeUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		DD0EB3742063BB6E00C0FBBC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#if which swiftlint >/dev/null; then\n#swiftlint\n#else\n#echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n#fi";
+		};
+		DD83959F205FE55E00F56D5C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "TAGS=\"TODO:|FIXME:\"\nSKIPDIRS=\"/Pods\"\nfind \"${SRCROOT}/\" -type f \\( -name \"*.h\" -or -name \"*.m\" -or -name \"*.swift\" \\) -print0 \\\n| xargs -0 egrep --with-filename --line-number --only-matching \"($TAGS).*\\$\" \\\n| grep -v \"$SKIPDIRS\" \\\n| perl -p -e \"s/($TAGS)/ warning: \\$1/\"";
+		};
 		E69982D945E75050A7881DAB /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -536,14 +619,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD92AD85205F081E00E6281A /* TabBarVC.swift in Sources */,
-				DDDF115B205F0BE200D7FCAA /* MainQuestionsVC.swift in Sources */,
+				DD2D3A322063E4960025A744 /* SegueIdentifiers.swift in Sources */,
+				DD0EB36A2060EDC200C0FBBC /* SignUpGetCodeViewController.swift in Sources */,
+				DDDF115B205F0BE200D7FCAA /* ProfileMenuViewController.swift in Sources */,
 				DD4B2996205BBA3B00E159AF /* Noosphera_trainee.xcdatamodeld in Sources */,
-				DD92AD6F205E971D00E6281A /* Reachability.swift in Sources */,
-				DD4B29BF205BBAD000E159AF /* AuthorizationVC.swift in Sources */,
-				DD92AD6D205E8BEB00E6281A /* Requests.swift in Sources */,
-				DD92AD7D205ED2DE00E6281A /* Alerts.swift in Sources */,
+				DD8395AA205FEC6D00F56D5C /* AuthenticationParser.swift in Sources */,
+				DD8395A5205FE99E00F56D5C /* URLContainer.swift in Sources */,
+				DD0EB36C2061079400C0FBBC /* SignUpSetPasswordViewController.swift in Sources */,
+				DD8395A7205FEA8A00F56D5C /* Settings.swift in Sources */,
+				DD8395AC205FEDC300F56D5C /* RequestResult.swift in Sources */,
+				DDE2A7DC20679BC700E0FDC8 /* QuestionTableViewCell.swift in Sources */,
+				DD0EB36F2062EAA400C0FBBC /* LocalizationExtension.swift in Sources */,
+				DD92AD6F205E971D00E6281A /* UIViewController+Reachability.swift in Sources */,
+				DDE2A7DA2067991D00E0FDC8 /* MainQuestionsListViewController.swift in Sources */,
+				DD4B29BF205BBAD000E159AF /* LoginViewController.swift in Sources */,
+				DD92AD7D205ED2DE00E6281A /* UIViewController+Alerts.swift in Sources */,
 				DD4B298E205BBA3B00E159AF /* AppDelegate.swift in Sources */,
+				DD8395A3205FE8D200F56D5C /* Authenticator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,6 +671,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		DD2D3A2E2063E1670025A744 /* Authorization.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD2D3A2F2063E1670025A744 /* Base */,
+			);
+			name = Authorization.storyboard;
+			sourceTree = "<group>";
+		};
 		DD4B2991205BBA3B00E159AF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -727,6 +827,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y99BXB85M4;
 				INFOPLIST_FILE = "Noosphera-trainee/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "s.levkupchinov.Noosphera-trainee";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -743,6 +844,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y99BXB85M4;
 				INFOPLIST_FILE = "Noosphera-trainee/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "s.levkupchinov.Noosphera-trainee";
 				PRODUCT_NAME = "$(TARGET_NAME)";

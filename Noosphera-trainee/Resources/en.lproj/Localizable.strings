@@ -10,3 +10,9 @@ NoInternetConnectionMessage = "Please, turn on WiFi or cellular";
 
 ErrorLoginTitle = "Error";
 ErrorLoginMessage = "Please, check your username or password";
+
+CheckPasswordErrorTitle = "Error";
+CheckPasswordErrorMessage = "Password must contain at least 6 characters";
+
+SignupCodeErrorTitle = "Error";
+SignupCodeErrorMessage = "Check code";

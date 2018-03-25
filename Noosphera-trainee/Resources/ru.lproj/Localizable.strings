@@ -10,3 +10,9 @@ NoInternetConnectionMessage = "Пожалуйста, включите WiFi ил�
 
 ErrorLoginTitle = "Ошибка";
 ErrorLoginMessage = "Пожалуйста, проверьте ваш логин и пароль";
+
+CheckPasswordErrorTitle = "Ошибка";
+CheckPasswordErrorMessage = "Пароль должен содержать 6 и более символов";
+
+SignupCodeErrorTitle = "Ошибка";
+SignupCodeErrorMessage = "Неправильный проверочный код ";
