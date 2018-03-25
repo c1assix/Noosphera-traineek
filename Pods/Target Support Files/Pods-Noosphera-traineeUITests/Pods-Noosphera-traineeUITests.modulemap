@@ -1,0 +1,6 @@
+framework module Pods_Noosphera_traineeUITests {
+  umbrella header "Pods-Noosphera-traineeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
